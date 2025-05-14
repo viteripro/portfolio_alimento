@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: rgb(red, green, blue);
+}
+
+.img_pan{
+    background-color: blue;
+    /* width: 25%; */
+    width: 40%;
+    /* margin-left: 5em; */
+    padding: 2.5em;
+    
+}
+
+.container-proceso{
+    background-color: rebeccapurple;
+    display: flex;
+    align-items: center;
+}
+ 
+.container-text{
+    background-color: red;
+    width: 30%;
+
+}
+
+@media screen and (max-width:950px){
+    .container-proceso{
+        background-color: darkcyan;
+        display: inline-block;
+    }
+
+    .container-text{
+        width: 100%;
+        text-align: center;
+    }
+}
