@@ -34,6 +34,9 @@ h1{
     display: flex;
 }
 
+.title-description{
+     padding: 1em;
+}
 .presentation{
     font-size: 1.8em;
 }
@@ -60,6 +63,15 @@ h1{
     scale: 1.4;
  }
  
+ .section-pan{
+    display: flex; 
+ }
+.container-article{
+    width: 70%;
+   display: inline-block;
+   text-align: center;
+}
+
 .container-imagen{
     width: 100%;
     overflow: hidden;
@@ -73,7 +85,17 @@ h1{
 .container-text{
     font-size: 1em;
    text-align: justify;
+   padding: 1em;
 }
+.img_pan{
+    width: 30%;
+}
+
+ .link_panes{
+        background-color: red;
+        padding: 1em;
+        display: inline-block;
+    }
 
 @media screen and (max-width:950px){
     .portada{
@@ -82,7 +104,14 @@ h1{
         margin-right: auto;
         margin-top: 2em;
         display: flex;
-    }    
+    }
+    
+    .title-h2{
+        padding: 1em 0 0 1em;
+    }
+     .section-pan{
+    display: inline-block; 
+ }
 /* 
     article{
         background-color: red;
@@ -103,11 +132,34 @@ h1{
     }
  
     .container-text{
-        font-size: 1.3em;
+         font-size: 1.3em;
        text-align: justify;
-       width: 70%;
+       width: 76%;
        margin-left: auto;
        margin-right: auto;
+    }
+
+    .container-imagen{
+         align-items: center;
+        display: flex;
+    }
+
+    .container-article{
+         width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img_pan{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .link_panes{
+        background-color: red;
+        padding: 1em;
+        display: inline-block;
     }
 }
 
